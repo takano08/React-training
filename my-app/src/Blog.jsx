@@ -10,7 +10,7 @@ class Blog extends React.Component{
     }
     togglePublished = () => {
         this.setState({
-            isPublished:!this.togglePublished
+            isPublished:!this.state.isPublished
             })
     };
 
@@ -24,4 +24,4 @@ class Blog extends React.Component{
     }
 }
 
-export default Blog
+export default Blog;
